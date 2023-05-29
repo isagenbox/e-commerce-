@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Wishlist</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <style>
+            body{
+                background-color: #ededed;
+            }
+            .bg-alan{
+                background-color: #0D6EFD;
+            }
+            .shop{
+                margin-left: 117px;
+            }
+                .cari input{
+                width: 100%;
+                border-radius: 100%;
+                background-color: wheat;
+                position: relative;
+            }
+            .cari button{
+                position: absolute;
+                right: 110px;
+                top: 68px;
+                margin: 10px 0px;
+                padding: 0px 20px;
+            }
+        </style>
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-alan">
+            <div class="container d-flex justify-content-between">
+                <div class="container d-flex flex-column align-items-start">
+                    <nav class="nav" style="font-size: 12px;">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        <span class="border-end border-white"></span>
+                        <a class="nav-link text-white" href="#">Discount</a>
+                        <span class="border-end border-white"></span>
+                        <a class="nav-link text-white" href="#">Category</a>
+                    </nav>
+                </div>
+                <h6 class="text-white pt-3 me-2">User</h6>
+                <i class="bi bi-person-circle mt-2" style="color: white; font-size: 1.5em;"></i>
+            </div>
+        </nav>
+        <!-- akhir navigasi -->
+        <!-- shop & Whistlist -->
+        <div class="container-fluid bg-white">
+            <div class="container shop pb-1">
+                <div class="row">
+                    <div class="col-3 d-flex">
+                        <h2 class="text-primary"><strong>Shop</strong></h2>
+                        <div class="vr mx-3 my-1"></div>
+                        <h3 class="text-primary pt-1">Whislist</h3>
+                    </div>
+                    <!-- search -->
+                    <div class="col-8 offset-1 mt-2">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search Product" aria-label="Search" style="width: 830px;">
+                            
+                                <!-- icon search -->
+                                <div class="cari">
+                                    <button class="btn btn-sm btn-primary mt-1 my-1 me-2 py-1">
+                                        <i class="bi bi-search"></i>
+                                    </button>
+                                </div>
+                                <!-- icon search -->
+                        </form>
+                    </div>
+                    <!-- search -->
+                </div>
+            </div>
+        </div>
+        <!-- akhir shop & whistlist -->
+        <!-- whistlist -->
+        <div class="container bs-secondary-bg">
+            <div class="container ms-2">
+                <p class="fs-2">Whislist</p>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/product.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title h3">Product</h5>
+                                <p class="card-text">IDR. 300.000</p>
+                                <div class="d-flex">
+                                    <a href="#" class="btn btn-primary me-4 mb-5">Beli</a>
+                                    <a href="" class="mt-2"><i class="bi bi-heart-fill"  style="color: rgb(255, 0, 0);"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/product.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title h3">Product</h5>
+                                <p class="card-text">IDR. 300.000</p>
+                                <div class="d-flex">
+                                    <a href="#" class="btn btn-primary me-4 mb-5">Beli</a>
+                                    <a href="" class="mt-2"><i class="bi bi-heart-fill"  style="color: rgb(255, 0, 0);"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/product.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title h3">Product</h5>
+                                <p class="card-text">IDR. 300.000</p>
+                                <div class="d-flex">
+                                    <a href="#" class="btn btn-primary me-4 mb-5">Beli</a>
+                                    <a href="" class="mt-2"><i class="bi bi-heart-fill"  style="color: rgb(255, 0, 0);"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/product.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title h3">Product</h5>
+                                <p class="card-text">IDR. 300.000</p>
+                                <div class="d-flex">
+                                    <a href="#" class="btn btn-primary me-4 mb-5">Beli</a>
+                                    <a href="" class="mt-2"><i class="bi bi-heart-fill"  style="color: rgb(255, 0, 0);"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/product.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title h3">Product</h5>
+                                <p class="card-text">IDR. 300.000</p>
+                                <div class="d-flex">
+                                    <a href="#" class="btn btn-primary me-4 mb-5">Beli</a>
+                                    <a href="" class="mt-2"><i class="bi bi-heart-fill"  style="color: rgb(255, 0, 0);"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/product.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title h3">Product</h5>
+                                <p class="card-text">IDR. 300.000</p>
+                                <div class="d-flex">
+                                    <a href="#" class="btn btn-primary me-4 mb-5">Beli</a>
+                                    <a href="" class="mt-2"><i class="bi bi-heart-fill"  style="color: rgb(255, 0, 0);"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/product.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title h3">Product</h5>
+                                <p class="card-text">IDR. 300.000</p>
+                                <div class="d-flex">
+                                    <a href="#" class="btn btn-primary me-4 mb-5">Beli</a>
+                                    <a href="" class="mt-2"><i class="bi bi-heart-fill"  style="color: rgb(255, 0, 0);"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/product.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title h3">Product</h5>
+                                <p class="card-text">IDR. 300.000</p>
+                                <div class="d-flex">
+                                    <a href="#" class="btn btn-primary me-4 mb-5">Beli</a>
+                                    <a href="" class="mt-2"><i class="bi bi-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>            
+        <!-- akhir wishlist -->
+        <!-- footer -->
+        <div class="container-fluid bg-alan mt-3 overflow-hidden">
+            <h1 class="text-center pt-2 text-white">Shop</h1>
+            <div class="d-flex justify-content-center">
+                <i class="bi bi-facebook" style="color: rgb(255, 255, 255);"></i>
+                <i class="bi bi-instagram mx-3" style="color: rgb(255, 255, 255);"></i>
+                <i class="bi bi-whatsapp" style="color: rgb(255, 255, 255);"></i>
+            </div>
+            <p class="text-center text-white h5">Copyright 2021</p>
+        </div>
+        <!-- akhir footer -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <!-- swipper -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    </body>
+</html>

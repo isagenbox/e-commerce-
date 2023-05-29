@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home Anonim</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <style>
+            .bg-alan{
+                background-color: #0D6EFD;
+            }
+            swiper-container {
+                width: 1313px;
+                height: 874px;
+            }
+
+            swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .cari input{
+                width: 100%;
+                border-radius: 100%;
+                background-color: wheat;
+                position: relative;
+            }
+            .cari button{
+                position: absolute;
+                right: 350px;
+                top: 50px;
+                margin: 10px 0px;
+                padding: 0px 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-alan">
+            <div class="container d-flex flex-column align-items-start">
+                <nav class="nav" style="font-size: 12px;">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    <span class="border-end border-white"></span>
+                    <a class="nav-link text-white" href="#">Discount</a>
+                    <span class="border-end border-white"></span>
+                    <a class="nav-link text-white" href="#">Category</a>
+                </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <h1 class="ms-3 me-5 text-white">Shop</h1>
+                    <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul> -->
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search Product" aria-label="Search" style="width: 900px;">
+                    <button class="btn btn-outline-light ms-5" type="submit"><i class="bi bi-cart3"></i></button>
+                        <!-- icon search -->
+                        <div class="cari">
+                            <button class="btn btn-sm btn-primary mt-1 my-1 me-2 py-1">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                        <!-- icon search -->
+                    <button class="btn btn-outline-light ms-3" type="submit">Login</button>
+                </form>
+            </div>
+        </nav>
+        <!-- swipper -->
+            <swiper-container class="mySwiper mt-3 mb-3" navigation="true" pagination="true" keyboard="true" mousewheel="true" css-mode="true">
+                <swiper-slide><img src="img/jumbo1.jpeg" alt=""></swiper-slide>
+                <swiper-slide><img src="img/jumbo2.jpeg" alt=""></swiper-slide>
+            </swiper-container>
+        <!-- akun swiper -->
+        <div class="container">
+            <div class="d-flex flex-row">
+                <h1>Diskon</h1>
+                <span class="badge bg-primary">New</span>
+                <!-- <button class="d-inline text-center btn btn-primary m-2 px-3">12.12</button> -->
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/product.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title h3">Product</h5>
+                            <p class="card-text">IDR. 300.000</p>
+                            <div class="d-flex">
+                                <a href="#" class="btn btn-primary me-4 mb-5">Beli</a>
+                                <a href="" class="mt-2"><i class="bi bi-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/product.svg" class="card-img-top" alt="...">
+                        <div class="card-body"> 
+                            <h5 class="card-title h3">Product</h5>
+                            <p class="card-text"">IDR. 300.00</p>
+                            <div class="d-flex">
+                                <a href="#" class="btn btn-primary me-4 mb-5">Beli</a>
+                                <a href="" class="mt-2"><i class="bi bi-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/product.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title h3">Product</h5>
+                            <p class="card-text">IDR. 300.000</p>
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                <a href="#" class="btn btn-primary me-4 mb-5">Beli</a>
+                                <a href="" class="mt-2"><i class="bi bi-heart-fill"  style="color: rgb(255, 0, 0);"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- akun swuper selesai -->
+        <!-- product -->
+        <div class="container mt-2">
+            <h1>Product</h1>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/product.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title h3">Product</h5>
+                            <p class="card-text">IDR. 300.000</p>
+                            <div class="d-flex">
+                                <a href="#" class="btn btn-primary me-4 mb-5">Go somewhere</a>
+                                <a href=""><i class="bi bi-heart-fill"  style="color: rgb(255, 0, 0);"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/product.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title h3">Product</h5>
+                            <p class="card-text">IDR. 300.000</p>
+                            <div class="d-flex">
+                                <a href="#" class="btn btn-primary me-4 mb-5">Go somewhere</a>
+                                <a href=""><i class="bi bi-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/product.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title h3">Product</h5>
+                            <p class="card-text">IDR. 300.000</p>
+                            <div class="d-flex">
+                                <a href="#" class="btn btn-primary me-4 mb-5">Go somewhere</a>
+                                <a href=""><i class="bi bi-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/product.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title h3">Product</h5>
+                            <p class="card-text">IDR. 300.000</p>
+                            <div class="d-flex">
+                                <a href="#" class="btn btn-primary me-4 mb-5">Go somewhere</a>
+                                <a href=""><i class="bi bi-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/product.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title h3">Product</h5>
+                            <p class="card-text">IDR. 300.000</p>
+                            <div class="d-flex">
+                                <a href="#" class="btn btn-primary me-4 mb-5">Go somewhere</a>
+                                <a href=""><i class="bi bi-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/product.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title h3">Product</h5>
+                            <p class="card-text">IDR. 300.000</p>
+                            <div class="d-flex">
+                                <a href="#" class="btn btn-primary me-4 mb-5">Go somewhere</a>
+                                <a href=""><i class="bi bi-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/product.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title h3">Product</h5>
+                            <p class="card-text">IDR. 300.000</p>
+                            <div class="d-flex">
+                                <a href="#" class="btn btn-primary me-4 mb-5">Go somewhere</a>
+                                <a href=""><i class="bi bi-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/product.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title h3">Product</h5>
+                            <p class="card-text">IDR. 300.000</p>
+                            <div class="d-flex">
+                                <a href="#" class="btn btn-primary me-4 mb-5">Go somewhere</a>
+                                <a href=""><i class="bi bi-heart-fill"  style="color: rgb(255, 0, 0);"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- akhir product -->
+        <div class="container mt-2">
+            <button class="btn btn-primary me-2"> < </button>
+            <button class="btn btn-primary mx-2"> 1 </button>
+            <button class="btn btn-primary mx-2"> ... </button>
+            <button class="btn btn-primary mx-2"> 12 </button>
+            <button class="btn btn-primary mx-2"> > </button> 
+            <!-- 
+            <div class="container d-flex justify-content-between">
+                <button class="btn btn-primary"> < </button>
+                <button class="btn btn-primary"> < </button>
+                <button class="btn btn-primary"> < </button>
+                <button class="btn btn-primary"> < </button>
+                <button class="btn btn-primary"> < </button> 
+            </div>         -->
+        </div>
+        <!-- footer -->
+        <div class="container-fluid bg-alan mt-3 overflow-hidden">
+            <h1 class="text-center pt-2 text-white">Shop</h1>
+            <div class="d-flex justify-content-center mb-2">
+                <i class="bi bi-facebook" style="color: rgb(255, 255, 255);"></i>
+                <i class="bi bi-instagram mx-3" style="color: rgb(255, 255, 255);"></i>
+                <i class="bi bi-whatsapp" style="color: rgb(255, 255, 255);"></i>
+            </div>
+            <p class="text-center text-white h5">Copyright 2021</p>
+        </div>
+        <!-- akhir footer -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <!-- swipper -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    
+    </body>
+</html>

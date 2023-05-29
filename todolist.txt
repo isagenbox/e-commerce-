@@ -1,0 +1,29 @@
+Home Anon
+	kurang badge
+	kurang bunder bunder
+	kurang arah
+
+Home User
+	kurang notif merah
+	kurang badge
+	kurang bunder bunder
+	kurang arah
+
+Chart
+	selesai
+
+Whistlist
+	selesai
+
+Profile
+	belum dikerjakan
+
+Daftar	
+	sudah selesai
+	kurang gambar presisi
+
+Login
+	selesai
+
+Product
+	selesai
